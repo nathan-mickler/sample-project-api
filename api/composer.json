@@ -1,0 +1,22 @@
+{
+    "name": "sampleproject",
+    "description": "A sample coding project for buliding an API.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "sparkphp/spark": "~0.4",
+        "illuminate/database": "*",
+        "nesbot/carbon": "~1.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "SampleProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nathan Mickler",
+            "email": "nathanmickler@gmail.com"
+        }
+    ]
+}

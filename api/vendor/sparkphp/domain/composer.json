@@ -1,0 +1,20 @@
+{
+    "name": "sparkphp/domain",
+    "description": "Interfaces for Domain and Payload pattern",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Woody Gilk",
+            "email": "woody.gilk@gmail.com"
+        },
+        {
+            "name": "Daniel Olfelt",
+            "email": "dolfelt@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Spark\\Adr\\": "src/"
+        }
+    }
+}
